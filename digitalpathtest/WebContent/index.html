@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Height & Age Classifier</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="js.js"></script>
+</head>
+<body>
+
+	<div class="input_holder">
+		
+		<div class="heading" > Height and Age Classifier </div>
+		
+		<label class="input_label"> Enter age </label>
+		<input type="number" id="age" class="input" />
+		<label class="input_label"> Enter height </label>
+		<input type="number" id="height" class="input" />
+		<input type="button" value="Submit" id="submit_input" class="submit_btn" onclick="sendAgeheight()" />
+		
+		<div id="output"> <div id="processing">Processing...</div> </div>
+		
+	</div>
+
+</body>
+</html>
